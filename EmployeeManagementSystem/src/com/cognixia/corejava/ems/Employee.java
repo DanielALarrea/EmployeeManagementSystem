@@ -5,15 +5,13 @@ public class Employee {
 	private int employeeID;
 	private String firstName;
 	private String lastName;
-	private String department;
 	private String title;
 	
-	public Employee(int employeeID, String firstName, String lastName, String department, String title) {
+	public Employee(int employeeID, String firstName, String lastName, String title) {
 		super();
 		this.employeeID = employeeID;
 		this.firstName = firstName;
 		this.lastName = lastName;
-		this.department = department;
 		this.title = title;
 	}
 
@@ -41,13 +39,6 @@ public class Employee {
 		this.lastName = lastName;
 	}
 
-	public String getDepartment() {
-		return department;
-	}
-
-	public void setDepartment(String department) {
-		this.department = department;
-	}
 
 	public String getTitle() {
 		return title;
@@ -60,7 +51,7 @@ public class Employee {
 	@Override
 	public String toString() {
 		return "Employee [employeeID=" + employeeID + ", firstName=" + firstName + ", lastName=" + lastName
-				+ ", department=" + department + ", title=" + title + "]";
+				+ ", title=" + title + "]";
 	}
 
 }
