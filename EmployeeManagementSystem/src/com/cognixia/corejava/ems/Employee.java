@@ -39,7 +39,6 @@ public class Employee {
 		this.lastName = lastName;
 	}
 
-
 	public String getTitle() {
 		return title;
 	}
