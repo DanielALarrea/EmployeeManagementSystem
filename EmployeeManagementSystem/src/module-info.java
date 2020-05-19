@@ -1,2 +1,3 @@
 module EmployeeManagementSystem {
+	requires junit;
 }

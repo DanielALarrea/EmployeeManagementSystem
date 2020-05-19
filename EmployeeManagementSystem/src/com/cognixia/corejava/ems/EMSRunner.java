@@ -22,4 +22,26 @@ public class EMSRunner {
 		System.out.println(depart1);
 	}
 
+	
+	private static void runPrompt () {
+		/* 
+		* Ask what the user what they wish to do
+		* They have the following options:
+		* Add Employee
+		* Add Department
+		* Update Employee
+		* Update Department
+		* View Employee
+		* View Department
+		* Delete Employee
+		* Delete Department
+		*
+		* Could have option at beginning to select either Employee or Department 
+		* and then give Add/Update/View/Delete options
+		* 
+		* Should Department be able to have no employees? No Manager?
+		* Should an Employee be able to not belong to a department?
+		*/
+		
+	}
 }
